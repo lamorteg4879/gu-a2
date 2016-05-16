@@ -1,5 +1,4 @@
 var main = function() {
-  /* Push the body and the nav over by 285px over */
   $('form').submit(function(event) {
         var $input = $(event.target).find('input');
         var comment = $input.val();
@@ -12,7 +11,7 @@ var main = function() {
 
         return false;
     });
-  
+
   $('.icon-menu').click(function() {
     $('.menu').animate({
       left: "0px"
@@ -23,7 +22,6 @@ var main = function() {
     }, 200);
   });
 
-  /* Then push them back */
   $('.icon-close').click(function() {
     $('.menu').animate({
       left: "-285px"
