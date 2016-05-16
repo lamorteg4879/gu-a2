@@ -1,0 +1,228 @@
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+/* Basic styling */
+
+.jumbotron {
+  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png'); 
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    border-left: 2px solid #00f28f;
+    font-size: 48px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.jumbotron h2 {
+    color: #fff;
+    border-left: 2px solid #00f28f;
+    font-size: 48px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.jumbotron p {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+h1 {
+    color: #00f28f;
+    border-left: 2px solid #00f28f;
+    font-size: 48px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.main {
+    margin-top: 80px;
+}
+
+.main form input {
+    background: #f0f0f0;
+
+    border: none;
+    border-left: 2px solid #fff;
+
+    font-size: 36px;
+    padding: 20px;
+    width: 100%;
+
+    transition: background 2s, border-left 2s;
+}
+
+.main form input:focus {
+    background: #fff;
+    border-left: 2px solid #00f28f;
+    box-shadow: none;
+    outline: none;
+}
+
+
+.btn {
+    background: transparent;
+    border: none;
+
+    color: #00f28f;
+    cursor: pointer;
+
+    font-size: 36px;
+
+    padding: 20px 24px;
+
+    transition: background 2s, color 2s;
+}
+
+.btn:hover {
+    background: #00f28f;
+    color: #fff;
+}
+
+.comments {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+li {
+    color: #fff;
+    padding-left: 20px;
+    border-left: 2px solid #00f28f;
+    font-size: 36px;
+    margin: 0 0 36px;
+}
+
+div.wpcf7 {
+    margin: 10px auto 0;
+}
+
+div.wpcf7 .wpcf7-not-valid { 
+    border-color: #f9bbb8;
+    border-width: 2px;
+    background: #ffe5e3;
+}
+
+span.wpcf7-not-valid-tip { display: none !important }
+
+div.wpcf7-validation-errors {
+    margin: 0;
+    padding: 5px 10px;
+    color: #c4690e;
+    background: #fffdf3;
+    border: 2px solid #e6bf4a;
+}
+
+div.wpcf7-mail-sent-ok {
+    margin: 0;
+    padding: 10px;
+    background: #cef0cb;
+    color: #698733;
+    border: 2px solid #91cc8c;
+}
+
+img.wpcf7-captchac {
+    background: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    width: 132px;
+    float: left;
+}
+
+.wpcf7 input[type="submit"] {
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    border: 0;
+    border-bottom: 4px solid #CCC;
+    padding: 12px 32px;
+    outline: 0;
+    border-color: #dd4036;
+    background-color: #e36159;
+    width: auto;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+}
+
+.wpcf7 input[type="submit"]:hover {
+    border-color: #df483f;
+    background-color: #e46962;
+}
+
+.wpcf7 input[type="submit"]:focus {
+    border-color: #e05048;
+    background-color: #e05048;
+}
+
+.wpcf7 textarea {
+    min-height: 150px;
+    margin-bottom: 20px;
+}
